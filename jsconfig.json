@@ -1,0 +1,56 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "allowSyntheticDefaultImports": false,
+        "baseUrl": "./",
+        "paths": {
+            "App/*": [
+                "src/app/*"
+            ],
+            "Components/*": [
+                "src/app/components/*"
+            ],
+            "Content/*": [
+                "src/app/content/*"
+            ],
+            "Core/*": [
+                "src/core/*"
+            ],
+            "Global/*": [
+                "src/app/global/*"
+            ],
+            "Layout/*": [
+                "src/app/layout/*"
+            ],
+            "Modules/*": [
+                "src/app/modules/*"
+            ],
+            "Pages/*": [
+                "src/app/pages/*"
+            ],
+            "Redux/*": [
+                "src/core/redux/*"
+            ],
+            "Routing/*": [
+                "src/core/routing/*"
+            ],
+            "Templates/*": [
+                "src/app/templates/*"
+            ],
+            "Theme/*": [
+                "src/app/theme/*"
+            ],
+            "Util/*": [
+                "src/core/util/*"
+            ]
+        }
+    },
+    "exclude": [
+        ".storybook",
+        "config",
+        "public",
+        "webpack",
+        "node_modules",
+        "storybook-static"
+    ]
+}

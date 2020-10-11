@@ -1,0 +1,26 @@
+import { Meta, Story, Canvas, Props } from '@storybook/addon-docs/blocks';
+import { text } from '@storybook/addon-knobs';
+
+import Example from './Example';
+
+<Meta title="Components/Example" component={Example} />
+
+# Example
+
+This is an example component that demonstrates MDX.
+
+## Props
+
+<Props component={Example} />
+
+## Stories
+
+### Default
+
+<Canvas>
+    <Story name="default">
+        <Example 
+            heading={text('heading')}
+        />
+    </Story>
+</Canvas>
